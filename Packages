@@ -1,0 +1,61 @@
+Package: auxo.178
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Installed-Size: 2127
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Filename: debs/AUXO_iOS6.deb
+Size: 1822346
+MD5sum: 414b8ccebe8f471a2976a6a6f645784e
+SHA1: 197f4672ab72d8e038e397cb741545392ca3d836
+SHA256: 37442c31596e2ae8022d4ca9c14ab34572e431e4523750d7487624123f698250
+Section: [178 - 工具]
+Homepage: http://apt.178.com/html/2013/0526/iphone9762.shtml
+Description: 最酷最好用ios多任务增强插件。
+Author: A3tweaks <A3tweaks@gmail.com>
+Depiction: http://apt.178.com/html/2013/0526/iphone9762.shtml
+Dev: a3tweaks
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Name: Auxo
+Sponsor: w花
+
+Package: cardswitcher-app.178
+Version: 2.0-1
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Installed-Size: 158
+Depends: mobilesubstrate, preferenceloader (>= 2.0.2), libactivator (>= 1.5), firmware (>= 4.0), com.iky1e.libdisplay (>= 1.0)
+Filename: debs/卡片后台_iOS6.deb
+Size: 84932
+MD5sum: 4dc3a3fa13857795f024c82c6aa9cfd1
+SHA1: 9e0c6cfc05ea0e84cafa57b0aeab1ff92b147343
+SHA256: e4921c0a1ba8b713d5c42cf80250e47228130c141654949e7492f164aabb570f
+Section: [178 - 工具]
+Homepage: http://apt.178.com/html/2013/0208/iphone8920.shtml
+Description: CardSwitcher是一款模仿webOS后台卡片式切换风格的插件。
+Author: iKy1e (Kyle Howells) <freerunnering@gmail.com>
+Depiction: http://apt.178.com/html/2013/0208/iphone8920.shtml
+Dev: freerunnering
+Icon: file:///Library/PreferenceBundles/CardSwitcherSettings.bundle/CardSwitcher@2x.png
+Name: CardSwitcher
+Sponsor: w花
+
+Package: jukebox.178
+Version: 1.6.3
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Depends: firmware (>= 5.0), com.arichardson.WeePreferenceLoader, com.chpwn.weeloader
+Filename: debs/通知中心音乐_iOS6.deb
+Size: 231140
+MD5sum: 4cf717f1d662f8d7df7537ea7981dbe4
+SHA1: 2b31e1ad9d8ab7a6dcbb66763b8e31bbe090eaa3
+SHA256: d3f1cca57ba03b2208dfbcbef510039f2c4e025539de3ecfe7d06a78c191bb35
+Section: [178 - 通知中心widget]
+Homepage: http://apt.178.com/html/2013/0628/iphone9865.shtml
+Description: Jukebox是目前为止小编自认为最棒的通知中心音乐播放控制插件。
+Author: Andrew Richardson <andrewr114@gmail.com>
+Depiction: http://apt.178.com/html/2013/0628/iphone9865.shtml
+Icon: file:///Library/WeeLoader/Plugins/Jukebox.bundle/MusicAppIcon.png
+Name: Jukebox
+Sponsor: w花
+
