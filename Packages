@@ -40,6 +40,36 @@ Icon: file:///Library/PreferenceBundles/CardSwitcherSettings.bundle/CardSwitcher
 Name: CardSwitcher
 Sponsor: w花
 
+Package: com.coolbooter.coolbooter
+Version: 1.6-release
+Architecture: iphoneos-arm
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Depends: xpwn, zip, unzip, ldid, diskdev-cmds, firmware (>= 7.0)
+Filename: debs/com.coolbooter.coolbooter-1.6-release.deb
+Size: 33805256
+MD5sum: a9a390a10541ccaf617a901118554ec9
+SHA1: c713f8ac4e1ffd266f6d8bdd3c41f7bea8a22b3f
+SHA256: a1cc1907e4c0a62325ddf0654796dcaa3623ea57db0c9456125c9e0744caa1c3
+Section: System
+Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
+Author: CoolBooter <coolbooterios@gmail.com>
+Name: CoolBooter
+
+Package: com.coolbooter.coolbootercli
+Version: 0.8.3-release
+Architecture: iphoneos-arm
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Depends: xpwn, zip, unzip, ldid, diskdev-cmds, wget, firmware (>= 5.0)
+Filename: debs/com.coolbooter.coolbootercli-0.8.3-release.deb
+Size: 15779626
+MD5sum: 428d6428539ba5e3c2497a95e8442cac
+SHA1: 70659e34f6644ce6d8a98001727ed8624281a612
+SHA256: ce5b2eb5a56eea051d77f4f36d837aeba291d1ff8128f6fca5c4548743ab27c6
+Section: System
+Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
+Author: CoolBooter <coolbooterios@gmail.com>
+Name: CoolBooter CLI
+
 Package: jukebox.178
 Version: 1.6.3
 Architecture: iphoneos-arm
