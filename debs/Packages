@@ -19,27 +19,6 @@ Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
 Name: Auxo
 Sponsor: w花
 
-Package: cardswitcher-app.178
-Version: 2.0-1
-Architecture: iphoneos-arm
-Maintainer: 178 Team <apt@178.com>
-Installed-Size: 158
-Depends: mobilesubstrate, preferenceloader (>= 2.0.2), libactivator (>= 1.5), firmware (>= 4.0), com.iky1e.libdisplay (>= 1.0)
-Filename: debs/卡片后台_iOS6.deb
-Size: 84932
-MD5sum: 4dc3a3fa13857795f024c82c6aa9cfd1
-SHA1: 9e0c6cfc05ea0e84cafa57b0aeab1ff92b147343
-SHA256: e4921c0a1ba8b713d5c42cf80250e47228130c141654949e7492f164aabb570f
-Section: [178 - 工具]
-Homepage: http://apt.178.com/html/2013/0208/iphone8920.shtml
-Description: CardSwitcher是一款模仿webOS后台卡片式切换风格的插件。
-Author: iKy1e (Kyle Howells) <freerunnering@gmail.com>
-Depiction: http://apt.178.com/html/2013/0208/iphone8920.shtml
-Dev: freerunnering
-Icon: file:///Library/PreferenceBundles/CardSwitcherSettings.bundle/CardSwitcher@2x.png
-Name: CardSwitcher
-Sponsor: w花
-
 Package: com.coolbooter.coolbooter
 Version: 1.6-release
 Architecture: iphoneos-arm
@@ -70,6 +49,28 @@ Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 
 Author: CoolBooter <coolbooterios@gmail.com>
 Name: CoolBooter CLI
 
+Package: com.saurik.afc2d
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: debs/Apple File Conduit 2_1.2.deb
+Size: 18114
+MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
+SHA1: bddaf385263b9aad2b032b2116179f83afd077cc
+SHA256: 287ac4ce1a6e4095e824fd90f71fed301ff7d9508f1cd2d87a7354053e347a3c
+Section: System
+Priority: optional
+Description: allow full file-system access over USB
+Tag: purpose::daemon, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
+Name: Apple File Conduit "2"
+
 Package: jukebox.178
 Version: 1.6.3
 Architecture: iphoneos-arm
@@ -88,4 +89,25 @@ Depiction: http://apt.178.com/html/2013/0628/iphone9865.shtml
 Icon: file:///Library/WeeLoader/Plugins/Jukebox.bundle/MusicAppIcon.png
 Name: Jukebox
 Sponsor: w花
+
+Package: net.angelxwind.appsyncunified
+Version: 104.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 732
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: debs/Appsync Unified_104.0【5.0+】.deb
+Size: 59144
+MD5sum: 4d4f867de80c03237897a0396d1bd90b
+SHA1: ec75e0cf681f50c11ced972d9990912f6d57af99
+SHA256: 720ab7caf651b5922c41ce2960d0a94a6e5c9c3be3c76676c33524a5d5eab0d3
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
 
